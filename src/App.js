@@ -47,11 +47,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{heading}</h1>
+     
       {!showGallery ? (
         <div className="home-content">
-          <p>Welcome to our Image Gallery App!</p>
-          <p>Discover a stunning collection of images.</p>
           <div className="button-container">
             <button onClick={() => handleSearch('animals')}>Explore Animals</button>
             <button onClick={() => handleSearch('food')}>Explore Food</button>
