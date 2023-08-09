@@ -47,9 +47,10 @@ function App() {
 
   return (
     <div className="App">
-     
+     // insert heading of the home page here
       {!showGallery ? (
         <div className="home-content">
+        // insert paragraph tag here
           <div className="button-container">
             <button onClick={() => handleSearch('animals')}>Explore Animals</button>
             <button onClick={() => handleSearch('food')}>Explore Food</button>
